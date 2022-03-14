@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            margin-top: 10px;
+        }
+    </style>
+    <title>Question 3</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="restaurant-name">Restaurant Name:</label>
+            <select id="restaurant-name" required>
+                <option value="none">Select</option>
+                <option value="rest-1">Disgusting Delicacy</option>
+            </select>
+        </div>
+        <div>
+        <label for="full-name">Name:</label>
+        <input type="text" id="full-name" required>
+    </div>
+    <div>
+        <label for="rsvp-email">Email:</label>
+        <input type="email" id="rsvp-email" required>
+    </div>
+    <div>
+        <label for="rsvp-number">Phone Number:</label>
+        <input type="text" maxlength="8" id="rsvp-number" required>
+    </div>
+    <div>
+        <label for="rsvp-date">Reservation Date:</label>
+        <input type="date" id="rsvp-date" required>
+    </div>
+    <div>
+        <label for="rsvp-pax">Number of Diners:</label>
+        <select id="rsvp-pax" required>
+            <option value="0">Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div>
+        <label for="indoor">Location:</label>
+            <label for="outdoor">Outdoor</label>
+            <input type="radio" id="outdoor" name="setting" checked>
+            <label for="indoor">Indoor</label>
+            <input type="radio" id="indoor" name="setting">
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+</body>
+</html>
