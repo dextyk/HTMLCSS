@@ -1,0 +1,14 @@
+h1{
+    background-color: lightcyan;
+    color: mediumblue;
+}
+
+h2{
+    background-color: salmon;
+    color: rgb(194, 53, 53);
+}
+
+p,ol{
+    background-color: #225e39;
+    color: cyan;
+}
