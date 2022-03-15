@@ -1,0 +1,14 @@
+.font-1{
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.font-2{
+    font-family: 'Gill Sans';
+    font-style: italic;
+}
+
+.font-3{
+    font-family: monospace;
+    text-decoration: underline overline;
+}
